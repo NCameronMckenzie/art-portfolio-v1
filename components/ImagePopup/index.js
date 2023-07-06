@@ -8,23 +8,22 @@ const ImageSlider = ({projects}) => {
   const [slidesToShow, setSlidesToShow] = useState(3);
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [slidesToScroll, setSlidesToScroll] = useState(1);
-
+  const [modalImages, setModalImages] = useState();
 
  console.log("project", projects)
 
 
-
-  const images = [
+ /* const images = [
     {
       id: 1,
       image:
-        "https://img.freepik.com/free-vector/moon-rover-flat-composition-with-view-planetary-surface-with-lunar-roving-vehicle-astronaut-character-illustration_1284-61094.jpg",
+        "https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg",
       title: "Lorem Ipsum Dolor Sit Amet",
     },
     {
       id: 2,
       image:
-        "https://media.istockphoto.com/id/1128067362/vector/space-rocket-flies-over-the-surface-of-the-planet-like-a-moon.jpg?s=612x612&w=0&k=20&c=Bi9NiISox5P458um1kdSBB2CsY4-F1iCNSi1ta74V-4=",
+        "https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg",
       title: "Sed Do Eiusmod Tempor",
     },
     {
@@ -46,6 +45,7 @@ const ImageSlider = ({projects}) => {
       title: "Ut Labore Et Dolore Magna Aliqua",
     }
   ];
+  */
 
   const handleSlideClick = (index) => {
     sliderRef.current.slickGoTo(index);
@@ -77,11 +77,11 @@ const ImageSlider = ({projects}) => {
         >
           <Slider {...settings} ref={sliderRef}>
             {projects.map((project) => (
+              
               <div style={{width: '100%', height: '100%', background: 'pink'}} key={project.id} className="slide">
                 <img
                   style={{ objectFit: 'cover',  height: '300px', width: 'auto', objectFit: 'cover', margin: "4rem auto 0px auto" }}
-                  src={project.image}
-                  alt={project.title}
+                  src={project.imageSrc}
                 />
               </div>
             ))}
@@ -92,11 +92,13 @@ const ImageSlider = ({projects}) => {
           >
             {projects.map((project, index) => (
               <div
-                key={project.id}
+                //key={project.id}
                 className={index === currentSlide ? "dot active" : "dot"}
                 onClick={() => handleSlideClick(index)}
               >
-                <img src={project.image} alt={project.title} />
+                <img src={project.imageSrc} 
+                //alt={project.title}
+                 />
               </div>
             ))}
           </div>

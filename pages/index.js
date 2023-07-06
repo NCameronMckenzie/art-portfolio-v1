@@ -14,6 +14,8 @@ import Modal from "react-modal";
 import ImagePopup from "../components/ImagePopup";
 import { FaTimes } from "react-icons/fa";
 
+//import jsonlint from 'jsonlint-mod';
+
 // Local Data
 import data from "../data/portfolio.json";
 
@@ -22,7 +24,7 @@ import styles from "../styles/popup.module.css";
 export default function Home() {
   //usestate
   const [modalIsOpen, setModalIsOpen] = useState(false);
-
+  const [modalImages, setModalImages] = useState();
   // Ref
   const workRef = useRef();
   const aboutRef = useRef();
@@ -30,6 +32,36 @@ export default function Home() {
   const textTwo = useRef();
   const textThree = useRef();
   const textFour = useRef();
+
+  const photos = [];
+
+  const openModal = (projectid) =>  {
+    let project = data.projects.filter(e=>e.id == projectid);
+    console.log("og project" + JSON.stringify(project[0].moreImageSrcs[0]));
+    console.log(JSON.parse(JSON.stringify(data.projects[0].moreImageSrcs)));
+    /*
+    //jsonlint.parse(project);
+    //project = project[0];
+    const item = project;
+    try{
+      item = JSON.parse(project);
+      console.log("title" + item.title);
+    }
+    catch (error){
+      console.log ('Error JSON Parsing', error, item)
+      console.log(project);
+    }
+
+    for(let i = 0; i < project[0].moreImageSrcs.length; i++){
+
+      
+      photos[i]=(JSON.stringify(project[0].moreImageSrcs[i]));
+      console.log('one and two' + i + " " + photos[i]);
+    }
+    */
+    setModalImages(JSON.parse(JSON.stringify(data.projects[0].moreImageSrcs)));
+    setModalIsOpen(true);
+  }
 
   // Handling Scroll
   const handleWorkScroll = () => {
@@ -118,7 +150,7 @@ export default function Home() {
               </button>
             </div>
             {
-                <ImagePopup projects={data.projects} />
+                <ImagePopup projects={modalImages} />
             }
           </Modal>
 
@@ -131,7 +163,7 @@ export default function Home() {
                 img={project.imageSrc}
                 name={project.title}
                 description={project.description}
-                onClick={() => setModalIsOpen(true)}
+                onClick={() => openModal(project.id)}
               />
             ))}
           </div>

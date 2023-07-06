@@ -1,1 +1,170 @@
-{"name":"Nigel","headerTaglineOne":"Hey 👋","headerTaglineTwo":"I'm Nigel Cameron - 3D","headerTaglineThree":"generalist & game dev","headerTaglineFour":" based in Atlanta, GA","showCursor":false,"showBlog":false,"darkMode":true,"showResume":false,"socials":[{"id":"1","title":"Github","link":"https://github.com/chetanverma16"},{"id":"2","title":"LinkedIn","link":"https://www.linkedin.com/in/chetanverma7/"},{"id":"3","title":"Twitter","link":"https://twitter.com/realchetanverma"},{"id":"4","title":"Blog","link":"https://blog.chetanverma.com/"},{"id":"5","title":"Email","link":"mailto:hello@chetanverma.com"}],"projects":[{"id":"1","title":"Coffee Shop","description":"A coffee shop space designed for a Mozilla 3D art competition (replace later)","imageSrc":"https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg","url":""},{"id":"2","title":"Farnsworth House","description":"An full 3D rendering of the Farnsworth House.","imageSrc":"https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg","url":""},{"id":"3","title":"PS4 Pro","description":"A product model of the PS4 Pro","imageSrc":"https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg","url":""},{"id":"4","title":"Low Poly Gaming Room","description":"A low poly version of an apartment layout I wanted in college.","imageSrc":"https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg","url":""},{"id":"5","title":"Wavey Cloths","description":"A procedural animation andd a procedural cloth material; rendered in Blender","imageSrc":"https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg","url":""},{"id":"6","title":"Whole Life Church (VR Experience)","description":"My partner and I at Cyber Sun Studio recreated this church in Florida from a bunch of pictures sent to us. This project was used to help bridge the gap between in-person church and VR church! ","imageSrc":"https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg","url":""},{"id":"23981f3c-26e1-41c7-8398-68485e9d3065","title":"Lakeland Church (VR Experience)","description":"The building interior as well as the furniture were all modeled by myself and my partner for our company Cyber Sun Studio!","imageSrc":"https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg","url":""}],"services":[{"id":"1","title":"Art Direction","description":"We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."},{"id":"2","title":"Branding","description":"We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."},{"id":"3","title":"Web Design","description":"We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."},{"id":"4","title":"3D Design","description":"We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."}],"aboutpara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.","resume":{"tagline":"👋  I'm a software engineer, product designer.","description":"I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.","experiences":[{"id":"1","dates":"March 2022 - Present","type":"Full Time","position":"Frontend Engineer at X","bullets":"Bullet One, Bullet Two"},{"id":"d495c23b-4f65-479a-9b8a-cfbc1c089725","dates":"July 2020 - March 2022","type":"Full Time","position":"Frontend Engineer at X","bullets":"Worked on the frontend of a React application, Worked on the frontend of a React application"}],"education":{"universityName":"University X","universityDate":"2016-2020","universityPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"},"languages":["Javascript","HTML5","CSS","Python","Go"],"frameworks":["React","Typescript","NodeJs"],"others":["Figma","AdobeXD","AWS"]}}
+{
+    "name": "Nigel",
+    "headerTaglineOne": "Hey 👋",
+    "headerTaglineTwo": "I'm Nigel Cameron - 3D",
+    "headerTaglineThree": "generalist & game dev",
+    "headerTaglineFour": " based in Atlanta, GA",
+    "showCursor": false,
+    "showBlog": false,
+    "darkMode": true,
+    "showResume": false,
+    "socials": [
+        {
+            "id": "1",
+            "title": "Github",
+            "link": "https://github.com/chetanverma16"
+        },
+        {
+            "id": "2",
+            "title": "LinkedIn",
+            "link": "https://www.linkedin.com/in/chetanverma7/"
+        },
+        {
+            "id": "3",
+            "title": "Twitter",
+            "link": "https://twitter.com/realchetanverma"
+        },
+        {
+            "id": "4",
+            "title": "Blog",
+            "link": "https://blog.chetanverma.com/"
+        },
+        {
+            "id": "5",
+            "title": "Email",
+            "link": "mailto:hello@chetanverma.com"
+        }
+    ],
+    "projects": [
+        {
+            "id": "1",
+            "title": "Coffee Shop",
+            "description": "A coffee shop space designed for a Mozilla 3D art competition (replace later)",
+            "imageSrc": "https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg",
+            "moreImageSrcs": [
+                {
+                    "imageSrc": "https://lh3.googleusercontent.com/pw/AJFCJaU0fCUMb5Dkb1BVRunBuDtHfKdiwCJEE3VSrevy6NXF7pMA4nz5C9XMmrYHmgEr0FENXxtTBvX_iBbveiqPM6LMLlkavRix1sSppMN6wEbSMs6ztcM=w2400"
+                },
+                {
+                    "imageSrc": "https://www.thespruce.com/thmb/WHDh42dmxIiAg5YuTftvBrqLevk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/zoysia-grass-plant-profile-4691117-hero-2c01933247654f5b8c694a49eb6fa7bc.jpg"
+                }
+            ],
+            "url": ""
+        },
+        {
+            "id": "2",
+            "title": "Farnsworth House",
+            "description": "An full 3D rendering of the Farnsworth House.",
+            "imageSrc": "https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg",
+            "moreImageSrcs": [
+                {
+                    "imageSrc ": "https://www.thespruce.com/thmb/WHDh42dmxIiAg5YuTftvBrqLevk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/zoysia-grass-plant-profile-4691117-hero-2c01933247654f5b8c694a49eb6fa7bc.jpg"
+                },
+                {
+                    "imageSrc2": "https://www.thespruce.com/thmb/WHDh42dmxIiAg5YuTftvBrqLevk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/zoysia-grass-plant-profile-4691117-hero-2c01933247654f5b8c694a49eb6fa7bc.jpg"
+                }
+            ],
+            "url": ""
+        },
+        {
+            "id": "3",
+            "title": "PS4 Pro",
+            "description": "A product model of the PS4 Pro",
+            "imageSrc": "https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg",
+            "url": ""
+        },
+        {
+            "id": "4",
+            "title": "Low Poly Gaming Room",
+            "description": "A low poly version of an apartment layout I wanted in college.",
+            "imageSrc": "https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg",
+            "url": ""
+        },
+        {
+            "id": "5",
+            "title": "Wavey Cloths",
+            "description": "A procedural animation andd a procedural cloth material; rendered in Blender",
+            "imageSrc": "https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg",
+            "url": ""
+        },
+        {
+            "id": "6",
+            "title": "Whole Life Church (VR Experience)",
+            "description": "My partner and I at Cyber Sun Studio recreated this church in Florida from a bunch of pictures sent to us. This project was used to help bridge the gap between in-person church and VR church! ",
+            "imageSrc": "https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg",
+            "url": ""
+        },
+        {
+            "id": "23981f3c-26e1-41c7-8398-68485e9d3065",
+            "title": "Lakeland Church (VR Experience)",
+            "description": "The building interior as well as the furniture were all modeled by myself and my partner for our company Cyber Sun Studio!",
+            "imageSrc": "https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg",
+            "url": ""
+        }
+    ],
+    "services": [
+        {
+            "id": "1",
+            "title": "Art Direction",
+            "description": "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."
+        },
+        {
+            "id": "2",
+            "title": "Branding",
+            "description": "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."
+        },
+        {
+            "id": "3",
+            "title": "Web Design",
+            "description": "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
+        },
+        {
+            "id": "4",
+            "title": "3D Design",
+            "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
+        }
+    ],
+    "aboutpara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "resume": {
+        "tagline": "👋  I'm a software engineer, product designer.",
+        "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+        "experiences": [
+            {
+                "id": "1",
+                "dates": "March 2022 - Present",
+                "type": "Full Time",
+                "position": "Frontend Engineer at X",
+                "bullets": "Bullet One, Bullet Two"
+            },
+            {
+                "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
+                "dates": "July 2020 - March 2022",
+                "type": "Full Time",
+                "position": "Frontend Engineer at X",
+                "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
+            }
+        ],
+        "education": {
+            "universityName": "University X",
+            "universityDate": "2016-2020",
+            "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+        },
+        "languages": [
+            "Javascript",
+            "HTML5",
+            "CSS",
+            "Python",
+            "Go"
+        ],
+        "frameworks": [
+            "React",
+            "Typescript",
+            "NodeJs"
+        ],
+        "others": [
+            "Figma",
+            "AdobeXD",
+            "AWS"
+        ]
+    }
+}
