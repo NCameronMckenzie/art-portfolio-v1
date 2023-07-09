@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import Slider from "react-slick";
 import Modal from "react-modal";
 
-const ImageSlider = ({projects}) => {
+const ImageSlider = ({projects, projectID, projectTitle}) => {
   const sliderRef = useRef();
   const [currentSlide, setCurrentSlide] = useState(0);
   const [slidesToShow, setSlidesToShow] = useState(3);
@@ -92,12 +92,12 @@ const ImageSlider = ({projects}) => {
           >
             {projects.map((project, index) => (
               <div
-                //key={project.id}
+                key={projectID}
                 className={index === currentSlide ? "dot active" : "dot"}
                 onClick={() => handleSlideClick(index)}
               >
                 <img src={project.imageSrc} 
-                //alt={project.title}
+                alt={projectTitle}
                  />
               </div>
             ))}

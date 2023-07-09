@@ -25,6 +25,9 @@ export default function Home() {
   //usestate
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [modalImages, setModalImages] = useState();
+  const projectID = 0;
+  const projectTitle = '';
+
   // Ref
   const workRef = useRef();
   const aboutRef = useRef();
@@ -33,33 +36,16 @@ export default function Home() {
   const textThree = useRef();
   const textFour = useRef();
 
-  const photos = [];
-
   const openModal = (projectid) =>  {
+    //console.log(JSON.stringify(data.projects[projectid-1].title));
+    projectID = projectid-1;
+    projectTitle = JSON.stringify(data.projects[projectID].title);
+    //console.log("projectID", projectID);
+    //console.log("project title", projectTitle);
     let project = data.projects.filter(e=>e.id == projectid);
-    console.log("og project" + JSON.stringify(project[0].moreImageSrcs[0]));
-    console.log(JSON.parse(JSON.stringify(data.projects[0].moreImageSrcs)));
-    /*
-    //jsonlint.parse(project);
-    //project = project[0];
-    const item = project;
-    try{
-      item = JSON.parse(project);
-      console.log("title" + item.title);
-    }
-    catch (error){
-      console.log ('Error JSON Parsing', error, item)
-      console.log(project);
-    }
-
-    for(let i = 0; i < project[0].moreImageSrcs.length; i++){
-
-      
-      photos[i]=(JSON.stringify(project[0].moreImageSrcs[i]));
-      console.log('one and two' + i + " " + photos[i]);
-    }
-    */
-    setModalImages(JSON.parse(JSON.stringify(data.projects[0].moreImageSrcs)));
+    //console.log("og project" + JSON.stringify(project[0].moreImageSrcs[0]));
+    //console.log(JSON.parse(JSON.stringify(data.projects[projectid-1])));
+    setModalImages(JSON.parse(JSON.stringify(data.projects[projectID].moreImageSrcs)));
     setModalIsOpen(true);
   }
 
@@ -150,7 +136,7 @@ export default function Home() {
               </button>
             </div>
             {
-                <ImagePopup projects={modalImages} />
+                <ImagePopup projects={modalImages} projectID={projectID} projectTitle={projectTitle} />
             }
           </Modal>
 

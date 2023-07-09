@@ -40,10 +40,10 @@
             "id": "1",
             "title": "Coffee Shop",
             "description": "A coffee shop space designed for a Mozilla 3D art competition (replace later)",
-            "imageSrc": "https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg",
+            "imageSrc": "https://lh3.googleusercontent.com/pw/AIL4fc8SsAc5BsiNI2J_KKoHPiRUBJ3UIfy_1mUVOc72Ne-Hw7xrSBI1kDqZ2xYb9VRu6wclMkAGar5cZSkX9goALYqBWxcsJDw0QUG59UQsR15ZyXGQWK8=w2400",
             "moreImageSrcs": [
                 {
-                    "imageSrc": "https://lh3.googleusercontent.com/pw/AJFCJaU0fCUMb5Dkb1BVRunBuDtHfKdiwCJEE3VSrevy6NXF7pMA4nz5C9XMmrYHmgEr0FENXxtTBvX_iBbveiqPM6LMLlkavRix1sSppMN6wEbSMs6ztcM=w2400"
+                    "imageSrc": "https://lh3.googleusercontent.com/pw/AIL4fc8SsAc5BsiNI2J_KKoHPiRUBJ3UIfy_1mUVOc72Ne-Hw7xrSBI1kDqZ2xYb9VRu6wclMkAGar5cZSkX9goALYqBWxcsJDw0QUG59UQsR15ZyXGQWK8=w2400"
                 },
                 {
                     "imageSrc": "https://www.thespruce.com/thmb/WHDh42dmxIiAg5YuTftvBrqLevk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/zoysia-grass-plant-profile-4691117-hero-2c01933247654f5b8c694a49eb6fa7bc.jpg"
@@ -53,15 +53,12 @@
         },
         {
             "id": "2",
-            "title": "Farnsworth House",
-            "description": "An full 3D rendering of the Farnsworth House.",
-            "imageSrc": "https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg",
+            "title": "Lightbound gun (change title)",
+            "description": "A photon based weapon created for an indie project I am working on called LightBound.",
+            "imageSrc": "https://lh3.googleusercontent.com/pw/AIL4fc-KHfv47vpb5eSI3WmWVz1C--WWmc6gTgMX_C7db7UsQHSKeKD0mJ8kkJoli0Jx7t-P_-5HiJoasiqbX80hci47i01Ob9ux0Z8IuYMW1Cdq-Dxven0=w2400",
             "moreImageSrcs": [
                 {
-                    "imageSrc ": "https://www.thespruce.com/thmb/WHDh42dmxIiAg5YuTftvBrqLevk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/zoysia-grass-plant-profile-4691117-hero-2c01933247654f5b8c694a49eb6fa7bc.jpg"
-                },
-                {
-                    "imageSrc2": "https://www.thespruce.com/thmb/WHDh42dmxIiAg5YuTftvBrqLevk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/zoysia-grass-plant-profile-4691117-hero-2c01933247654f5b8c694a49eb6fa7bc.jpg"
+                    "imageSrc": "https://lh3.googleusercontent.com/pw/AIL4fc-KHfv47vpb5eSI3WmWVz1C--WWmc6gTgMX_C7db7UsQHSKeKD0mJ8kkJoli0Jx7t-P_-5HiJoasiqbX80hci47i01Ob9ux0Z8IuYMW1Cdq-Dxven0=w2400"
                 }
             ],
             "url": ""
@@ -70,21 +67,42 @@
             "id": "3",
             "title": "PS4 Pro",
             "description": "A product model of the PS4 Pro",
-            "imageSrc": "https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg",
+            "imageSrc": "https://lh3.googleusercontent.com/pw/AIL4fc9DH18F4e0Oy_LR55q4DPkRStWQDMqlNUpSLvMOwSIj7_fu7UFOj4Kz2XcmtkKpqscQIIN9_zcvKRp8T-4hBCDvAkDdZIdwcMNJ5_x1jsmy1ZYZz7Y=w2400",
+            "moreImageSrcs": [
+                {
+                    "imageSrc": "https://lh3.googleusercontent.com/pw/AIL4fc9DH18F4e0Oy_LR55q4DPkRStWQDMqlNUpSLvMOwSIj7_fu7UFOj4Kz2XcmtkKpqscQIIN9_zcvKRp8T-4hBCDvAkDdZIdwcMNJ5_x1jsmy1ZYZz7Y=w2400"
+                },
+                {
+                    "imageSrc":"https://lh3.googleusercontent.com/pw/AIL4fc94DFGPblgcG3k3U0xZX0z7-teICRTGD6iFhWIM4J1oU7SKu2Uek2qv95UdVUQELUwsiSb00098926f7tRGDm9Ls2a4kKGCJFIigKGqT21Md8vFswE=w2400" 
+                },
+                {
+                    "imageSrc":"https://lh3.googleusercontent.com/pw/AIL4fc8J5YwJ3kkNq2ACuDRsGqOhjz5qw1UHB9o9DqAG3Ji8-KCCT-yBHwUMQdcls-vFDlsOriN2PwQGVlgg5qb8WPoNTpibQwChckAYRDW5EnAjO1dYNB0=w2400"
+                }
+            ],
             "url": ""
         },
         {
             "id": "4",
             "title": "Low Poly Gaming Room",
             "description": "A low poly version of an apartment layout I wanted in college.",
-            "imageSrc": "https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg",
+            "imageSrc": "https://lh3.googleusercontent.com/pw/AIL4fc-SyRIJiAQ-AE3_WhOaQwQx6CT7K5lru7rm0u-H7wZ1p6pV2JWFZ6UxvxANpXawoJoLspNrpDj-UywvCCglVFQf_jCSb2dxeFdiTxjljkotqWwXdP4=w2400",
+            "moreImageSrcs": [
+                {
+                    "imageSrc": "https://lh3.googleusercontent.com/pw/AIL4fc-SyRIJiAQ-AE3_WhOaQwQx6CT7K5lru7rm0u-H7wZ1p6pV2JWFZ6UxvxANpXawoJoLspNrpDj-UywvCCglVFQf_jCSb2dxeFdiTxjljkotqWwXdP4=w2400"
+                }
+            ],
             "url": ""
         },
         {
             "id": "5",
             "title": "Wavey Cloths",
             "description": "A procedural animation andd a procedural cloth material; rendered in Blender",
-            "imageSrc": "https://cdn.britannica.com/45/5645-050-B9EC0205/head-treasure-flower-disk-flowers-inflorescence-ray.jpg",
+            "imageSrc": "https://lh3.googleusercontent.com/pw/AIL4fc9ln1Sm1uY3OnnFw0hv0AYnmvGrub03tgQ8Rfi-hE4ga-k1pZZ_sgRFl706WWRvenxdKuR1Pp0h_FtRQtIKvh4QcNvd1KAopUDtSJqWoAXmDdcU8IU=w2400",
+            "moreImageSrcs": [
+                {
+                    "imageSrc": "https://lh3.googleusercontent.com/pw/AIL4fc9ln1Sm1uY3OnnFw0hv0AYnmvGrub03tgQ8Rfi-hE4ga-k1pZZ_sgRFl706WWRvenxdKuR1Pp0h_FtRQtIKvh4QcNvd1KAopUDtSJqWoAXmDdcU8IU=w2400"
+                }
+            ],
             "url": ""
         },
         {
