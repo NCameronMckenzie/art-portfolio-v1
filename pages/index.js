@@ -13,6 +13,7 @@ import Cursor from "../components/Cursor";
 import Modal from "react-modal";
 import ImagePopup from "../components/ImagePopup";
 import { FaTimes } from "react-icons/fa";
+import Image from "next/image";
 
 //import jsonlint from 'jsonlint-mod';
 
@@ -20,6 +21,7 @@ import { FaTimes } from "react-icons/fa";
 import data from "../data/portfolio.json";
 
 import styles from "../styles/popup.module.css";
+import backgroundpic from '/public/wavey_background.png';
 
 export default function Home() {
   //usestate
@@ -27,7 +29,7 @@ export default function Home() {
   const [modalImages, setModalImages] = useState();
   const projectID = 0;
   const projectTitle = '';
-
+ 
   // Ref
   const workRef = useRef();
   const aboutRef = useRef();
@@ -76,6 +78,24 @@ export default function Home() {
 
   return (
     <div className={`relative ${data.showCursor && "cursor-none"}`}>
+    <div style={{
+      zIndex:-1,
+      position: 'fixed',
+      width:'100vw',
+      height:'100vw'
+    }}>
+      <Image
+        src={backgroundpic}
+        //priority={true}
+        //placeholder = 'blur'
+        layout="fill"
+        objectFit="cover"
+        alt='background image'
+        //height='1vw'
+        //sizes="width:1vw"
+      />
+
+    </div>
       {data.showCursor && <Cursor />}
       <Head>
         <title>{data.name}</title>
@@ -90,7 +110,7 @@ export default function Home() {
           handleAboutScroll={handleAboutScroll}
         />
         <div className="laptop:mt-20 mt-10">
-          <div className="mt-5">
+          <div align='center' className="mt-5">
             <h1
               ref={textOne}
               className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5"
@@ -117,7 +137,9 @@ export default function Home() {
             </h1>
           </div>
 
-          <Socials className="mt-2 laptop:mt-5" />
+          
+          <Socials align='center' className="mt-2 laptop:mt-5" />
+
         </div>
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
           <h1 className="text-2xl text-bold">Work.</h1>

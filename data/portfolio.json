@@ -1,9 +1,9 @@
 {
-    "name": "Nigel",
-    "headerTaglineOne": "Hey 👋",
-    "headerTaglineTwo": "I'm Nigel Cameron - 3D",
-    "headerTaglineThree": "generalist & game dev",
-    "headerTaglineFour": " based in Atlanta, GA",
+    "name": "NigelCameron",
+    "headerTaglineOne": "",
+    "headerTaglineTwo": "Nigel Cameron",
+    "headerTaglineThree": "3D artist & game dev",
+    "headerTaglineFour": " ",
     "showCursor": false,
     "showBlog": false,
     "darkMode": true,
@@ -11,28 +11,28 @@
     "socials": [
         {
             "id": "1",
-            "title": "Github",
-            "link": "https://github.com/chetanverma16"
+            "title": "ArtStation",
+            "link": "https://www.artstation.com/nigelcameron"
         },
         {
             "id": "2",
             "title": "LinkedIn",
-            "link": "https://www.linkedin.com/in/chetanverma7/"
+            "link": "https://www.linkedin.com/in/nigel-mckenzie-dingle/"
         },
         {
             "id": "3",
             "title": "Twitter",
-            "link": "https://twitter.com/realchetanverma"
+            "link": "https://twitter.com/nigelcameron_"
         },
         {
             "id": "4",
-            "title": "Blog",
-            "link": "https://blog.chetanverma.com/"
+            "title": "Instagram",
+            "link": "https://instagram.com/NigelCameron_"
         },
         {
             "id": "5",
             "title": "Email",
-            "link": "mailto:hello@chetanverma.com"
+            "link": "mailto:nigelcameronmd@gmail.com"
         }
     ],
     "projects": [
@@ -73,10 +73,10 @@
                     "imageSrc": "https://lh3.googleusercontent.com/pw/AIL4fc9DH18F4e0Oy_LR55q4DPkRStWQDMqlNUpSLvMOwSIj7_fu7UFOj4Kz2XcmtkKpqscQIIN9_zcvKRp8T-4hBCDvAkDdZIdwcMNJ5_x1jsmy1ZYZz7Y=w2400"
                 },
                 {
-                    "imageSrc":"https://lh3.googleusercontent.com/pw/AIL4fc94DFGPblgcG3k3U0xZX0z7-teICRTGD6iFhWIM4J1oU7SKu2Uek2qv95UdVUQELUwsiSb00098926f7tRGDm9Ls2a4kKGCJFIigKGqT21Md8vFswE=w2400" 
+                    "imageSrc": "https://lh3.googleusercontent.com/pw/AIL4fc94DFGPblgcG3k3U0xZX0z7-teICRTGD6iFhWIM4J1oU7SKu2Uek2qv95UdVUQELUwsiSb00098926f7tRGDm9Ls2a4kKGCJFIigKGqT21Md8vFswE=w2400"
                 },
                 {
-                    "imageSrc":"https://lh3.googleusercontent.com/pw/AIL4fc8J5YwJ3kkNq2ACuDRsGqOhjz5qw1UHB9o9DqAG3Ji8-KCCT-yBHwUMQdcls-vFDlsOriN2PwQGVlgg5qb8WPoNTpibQwChckAYRDW5EnAjO1dYNB0=w2400"
+                    "imageSrc": "https://lh3.googleusercontent.com/pw/AIL4fc8J5YwJ3kkNq2ACuDRsGqOhjz5qw1UHB9o9DqAG3Ji8-KCCT-yBHwUMQdcls-vFDlsOriN2PwQGVlgg5qb8WPoNTpibQwChckAYRDW5EnAjO1dYNB0=w2400"
                 }
             ],
             "url": ""
@@ -123,23 +123,43 @@
     "services": [
         {
             "id": "1",
-            "title": "Art Direction",
-            "description": "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."
+            "title": "Product Rendering",
+            "description": "I create a 3D model of products from the physical object or solely pictures. The product can then be animated and shown in any setting or lighting you'd choose. I will combine creative design and technical skills to build striking 3D visualizations that bring your project to life. Perfect for a commercial or banner for your website."
         },
         {
             "id": "2",
-            "title": "Branding",
-            "description": "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."
+            "title": "Environment Art",
+            "description": "I will design a scene for a render or an area for a game or interactive project. The scene includes full physically based rendering materials and 3D models for use in everything from a short film to a video game in a photo-realistic or simple low-poly style."
         },
         {
             "id": "3",
-            "title": "Web Design",
-            "description": "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
+            "title": "VR Optimized Art",
+            "description": "I will create any art and by using the best optimization  and baking techniques, ensure that the model will run optimally in Virtual/Augmented Reality projects and look its best at the same time."
         },
         {
             "id": "4",
-            "title": "3D Design",
-            "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
+            "title": "Asset Modeling",
+            "description": "I can model any single high detail asset that may be used for games, film or any other sort of entertainment. This would be something like special weapon or object in a video game or movie."
+        },
+        {
+            "id": "5321868f-10a8-4c3a-92b4-501c0cbfc942",
+            "title": "Game Art",
+            "description": "I can create any model, large or small, high or low detail and optimize it for game engine use. I have background in game development so I understand the importance of optimizing models, as well as the best practices to do so."
+        },
+        {
+            "id": "ae31f618-cdb7-40d7-9bb6-314b3f9b72b2",
+            "title": "Interior Rendering",
+            "description": "I can create a model of your floor plan layout with, if needed, custom models for certain or all the furniture, depending on the level of realism needed. I can also add photo-realistic materials with advanced lighting and shading effects for the most compelling and life-like result."
+        },
+        {
+            "id": "0342a68f-921e-46a3-bb28-d6b573812bb9",
+            "title": "Architectural Rendering",
+            "description": "I can make and render a full architectural model. This would include the land topology, the home structure, the driveway, the sun position, and anything else you might want to include to make the render as realistic and convincing as possible.\n"
+        },
+        {
+            "id": "77085dae-8af3-4156-bd08-a3a83f149bbc",
+            "title": "VR Integration",
+            "description": "I can add any interior or architectural scene that I create into a Virtual Reality space for you. Experiencing your space in a VR headset can help you immerse yourself and bring a more profound connection to the space. It can help convey a more accurate feeling of the size and flow and will help you better understand how it'll feel to stand in it in real life."
         }
     ],
     "aboutpara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",

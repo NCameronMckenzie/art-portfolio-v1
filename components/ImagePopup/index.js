@@ -69,6 +69,7 @@ const ImageSlider = ({projects, projectID, projectTitle}) => {
         <div
           style={{
             height: "80vh",
+            width: "100%",
             display: "flex",
             justifyContent: "space-around",
             flexDirection: "column"
@@ -80,7 +81,7 @@ const ImageSlider = ({projects, projectID, projectTitle}) => {
               
               <div style={{width: '100%', height: '100%', background: 'pink'}} key={project.id} className="slide">
                 <img
-                  style={{ objectFit: 'cover',  height: '300px', width: 'auto', objectFit: 'cover', margin: "4rem auto 0px auto" }}
+                  style={{ objectFit: 'cover',  height: '90%', width: 'auto', objectFit: 'cover', margin: "3rem 1rem 0px auto" }}
                   src={project.imageSrc}
                 />
               </div>
