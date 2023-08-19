@@ -51,7 +51,7 @@ export default function Home() {
     setModalIsOpen(true);
   }
 
-  // Handling Scroll
+  // Handling Scroll for menu
   const handleWorkScroll = () => {
     window.scrollTo({
       top: workRef.current.offsetTop,
@@ -82,7 +82,7 @@ export default function Home() {
       zIndex:-1,
       position: 'fixed',
       width:'100vw',
-      height:'100vw'
+      height:'100vh'
     }}>
       <Image
         src={backgroundpic}
@@ -141,15 +141,17 @@ export default function Home() {
           <Socials align='center' className="mt-2 laptop:mt-5" />
 
         </div>
-        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
+        <div className="mt-10 laptop:mt-30 p-auto laptop:p-0" ref={workRef}>
           <h1 className="text-2xl text-bold">Work.</h1>
 
           {/* Image Modal */}
           <Modal
             isOpen={modalIsOpen}
             onRequestClose={() => setModalIsOpen(false)}
+            style={{overlay:{ position:'fixed'}, content:{ position:'absolute', top:'0px', left:'0px', right:'0px', bottom:'0px', border:'0px', background:'rgba(0,0,0,0.5)', padding: '1px'}}}
           >
-            <div style={{ position: "relative", width: '100%', height: '50px' }}>
+            <div style={{ position: "relative", width: '100%', height: '25%' }}>
+              //close button
               <button
                 style={{ position: "absolute", right: "25%", bottom: '0px'  }}
                 onClick={() => setModalIsOpen(false)}
@@ -157,8 +159,9 @@ export default function Home() {
                 <FaTimes />
               </button>
             </div>
+
             {
-                <ImagePopup projects={modalImages} projectID={projectID} projectTitle={projectTitle} />
+              <ImagePopup projects={modalImages} projectID={projectID} projectTitle={projectTitle} />
             }
           </Modal>
 
