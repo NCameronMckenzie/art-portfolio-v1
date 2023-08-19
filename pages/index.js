@@ -148,10 +148,10 @@ export default function Home() {
           <Modal
             isOpen={modalIsOpen}
             onRequestClose={() => setModalIsOpen(false)}
-            style={{overlay:{ position:'fixed'}, content:{ position:'absolute', top:'0px', left:'0px', right:'0px', bottom:'0px', border:'0px', background:'rgba(0,0,0,0.5)', padding: '1px'}}}
+            style={{overlay:{ position:'fixed'}, content:{ position:'absolute', top:'0px', left:'0px', right:'0px', bottom:'0px', border:'0px', background:'rgba(0,0,0,04)', padding: '1px'}}}
           >
             <div style={{ position: "relative", width: '100%', height: '25%' }}>
-              //close button
+              {/* close button */}
               <button
                 style={{ position: "absolute", right: "25%", bottom: '0px'  }}
                 onClick={() => setModalIsOpen(false)}

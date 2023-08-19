@@ -71,9 +71,7 @@ const ImageSlider = ({projects, projectID, projectTitle}) => {
           style={{
             height: "100%",
             width: "100%",
-            backgroundColor: "#000000",
             centerMode: true,
-            variableWidth: true,
             top: '0px',
             left: '0px',
             bottom: '0px',
@@ -86,7 +84,7 @@ const ImageSlider = ({projects, projectID, projectTitle}) => {
               
               <div style={{width: '100%', height: '100%', background: 'pink', font: 'Nunito'}} key={project.id} className="slide">
                 <img
-                  style={{ margin: '20px 20px', padding: '10px 10px', objectFit: 'cover',  height: '90%', width: '', margin: "3rem 1rem 0px auto" }}
+                  style={{ padding: '2% 2%'}}
                   src={project.imageSrc}
                 />
               </div>
