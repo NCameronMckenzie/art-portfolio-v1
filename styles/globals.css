@@ -1,11 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Hind:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Nunito&family=Charmonman&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 @import "./markdown.css";
 
 * {
-  font-family: "Hind";
+  font-family: "Nunito", sans-serif;
+  font-family: "Charmonman", cursive;
   margin: 0px;
   padding: 0px;
 }
@@ -127,8 +128,9 @@ body {
    License: none (public domain)
 */
 
+
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -144,9 +146,19 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font-family: Nunito;
 	vertical-align: baseline;
 }
+
+h1{
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: Charmonman;
+	vertical-align: baseline;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {

@@ -79,7 +79,7 @@ const ImageSlider = ({projects, projectID, projectTitle}) => {
           <Slider {...settings} ref={sliderRef}>
             {projects.map((project) => (
               
-              <div style={{width: '100%', height: '100%', background: 'pink'}} key={project.id} className="slide">
+              <div style={{width: '100%', height: '100%', background: 'pink', font: 'Nunito'}} key={project.id} className="slide">
                 <img
                   style={{ objectFit: 'cover',  height: '90%', width: 'auto', objectFit: 'cover', margin: "3rem 1rem 0px auto" }}
                   src={project.imageSrc}
