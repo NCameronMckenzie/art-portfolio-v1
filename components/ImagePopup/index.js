@@ -55,7 +55,7 @@ const ImageSlider = ({projects, projectID, projectTitle}) => {
   const settings = {
     infinite: true,
     speed: 500,
-    arrows: true,
+    arrows: false,
     slidesToShow: 1,
     centerMode: true,
     infinite: true,
@@ -71,28 +71,29 @@ const ImageSlider = ({projects, projectID, projectTitle}) => {
           style={{
             height: "100%",
             width: "100%",
-            centerMode: true,
-            top: '0px',
-            left: '0px',
-            bottom: '0px',
-            right: '0px',
+            paddingTop:"0px",
+            display:"flex",
+            flexDirection:"column",
+            justifyContent:"center"
           }}
           className="slider-container"
         >
-          <Slider {...settings} ref={sliderRef}>
+          <Slider {...settings} ref={sliderRef}> 
+            {/*the large images */}
             {projects.map((project) => (
-              
-              <div style={{width: '100%', height: '100%', background: 'pink', font: 'Nunito'}} key={project.id} className="slide">
-                <img
-                  style={{ padding: '2% 2%'}}
+              <div style={{background: 'pink', font: 'Nunito'}} key={project.id} className="slide">
+                <img 
+                  style={{width:"100%",paddingLeft:"50px", paddingBottom:"50px"}}
                   src={project.imageSrc}
                 />
               </div>
             ))}
           </Slider>
-          <div
-            style={{ display: "flex", justifyContent: "center" }}
+
+          <div //mini pics at the bottom
+            style={{ display: "flex", justifyContent: "center", paddingTop:"10px"}}
             className="dots"
+            
           >
             {projects.map((project, index) => (
               <div
